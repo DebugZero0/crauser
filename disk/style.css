@@ -21,7 +21,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --animate-scroll: scroll 10s linear infinite;
+    --animate-scroll: scroll 5s linear infinite;
   }
 }
 @layer base {
@@ -373,7 +373,7 @@
     transform: translateY(0);
   }
   to {
-    transform: translateY(-900%);
+    transform: translateY(-800%);
   }
 }
 @layer properties {
